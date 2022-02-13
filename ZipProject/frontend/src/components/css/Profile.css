@@ -1,0 +1,45 @@
+.profile-container{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+.profile-header{
+    height: 50vh;
+    width: 100%;
+    /* margin-right: 48px; */
+    /* height: 20rem; */
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.hi-msg{
+    text-align: center;
+}
+.logout-btn{
+    width:80%;
+    margin:0 auto;
+    padding:10px;
+    border:none;
+    background-color: rgb(12, 99, 250);
+    color:#fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.logout-btn:hover{
+    background-color: rgb(7, 77, 197);
+    cursor:pointer;
+}
+.profile-header *{
+    margin-bottom: 15px;
+}
+.profile-avatar{
+    width: 100px !important;
+    height: 100px !important;
+    background-color: #EC6D37 !important;
+}
+.profile-body{
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+}

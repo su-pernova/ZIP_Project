@@ -1,0 +1,29 @@
+.modal-backdrop{
+    z-index:999 !important;
+}
+.products-form-container{
+    height:700px;
+}
+.form-lists{
+    display:flex;
+    flex-wrap: wrap;
+}
+.form-item{
+    border: 1px solid;
+    padding: 1px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.form-item:hover{
+    background-color: yellowgreen;
+    cursor:pointer;
+    
+}
+.select-wrap{
+    display:flex;
+    justify-content:space-between;
+}
+.select-wrap .mb-3{
+    width:120px;
+}

@@ -1,0 +1,158 @@
+
+.cards {
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards__container {
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.cards__container2{
+  display: flex;
+  flex-direction: column-reverse !important;
+}
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+  display:grid;
+  flex-direction: column-reverse;
+  width:100%;
+}
+.cards__wrapper2{
+  position: relative;
+  display:grid;
+  flex-direction: row-revsere;
+}
+.cards__items {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    flex-direction: row-reverse;
+}
+
+.cards__item {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+  width: 303px !important;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.cards__item__link {
+  display: flex;
+  flex-flow: column;
+  width: 342px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.MuiPaper-elevation1{
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17) !important;
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)) !important; 
+}
+
+.cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+/* .cards__item__pic-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  box-sizing: border-box;
+} */
+
+.cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.cards__item__img:hover {
+  transform: scale(1.1);
+}
+.MuiCardActionArea-root:hover{
+  transition: all 0.2s linear;
+  transform: scale(1.05) !important;
+}
+
+.cards__item__info {
+  padding: 10px 30px 30px;
+}
+
+.cards__item__text {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+}
+.cards__item__user__cat{
+  color:#616161;
+  font-weight: bold;
+}
+.cards__item__mark__icon{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.3rem;
+}
+.cards__item__mark__icon:hover{
+  transition: all 0.2s linear;
+  transform: scale(1.2) !important;
+  cursor: pointer;
+  color: #EC6D37;
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+/* @media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+} */
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+}

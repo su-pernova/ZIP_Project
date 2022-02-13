@@ -1,0 +1,41 @@
+.bookmark-product-modal{
+    margin-top: 5rem;
+}
+.modal-box{
+    width: 100%;
+    display:flex;
+}
+.left-modal-box{
+    padding-left: 10%;
+}
+.product-left-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.mycuration-list-wrapper{
+    height:250px;
+    overflow-x:scroll;
+    margin-top: 15px;
+}
+.mycuration-list{
+    width: 300px;
+}
+.mycuration-list-checkbox{
+    padding-right: 20px;
+    font-size:2rem;
+}
+.mycuration-list-titles{
+    display:flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.right-modal-box{
+    padding-left: 10%;
+}
+li{
+    list-style:none;
+}

@@ -1,0 +1,199 @@
+.onboard-title{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+.onboard-subtitle{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size:16px;
+}
+.prev-icon{
+    font-size: 1.3rem;
+    width:100%;
+    display:flex;
+    justify-content: left;
+}
+.prev-icon:hover{
+    font-weight: bold;
+    color: #EC6D37;
+    cursor: pointer;
+}
+.highlight{
+    color: #EC6D37;
+}
+.onboard-btn{
+    background: #E8EAED;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #9AA0A6 !important;
+    padding: 15px !important;
+    margin-top: 15px !important;
+    margin-bottom: 30px !important;
+}
+.onboard-password-desc{
+    font-size: 12px;
+    color: #5F6368;
+}
+.onboard-btn:hover{
+    background: #EC6D37 !important;
+    color: #fff !important;
+}
+/*seconde-onboard*/
+.second-onboard-container{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.second-onboard-header{
+    width:100%;
+    padding: 15px;
+}
+.second-onboard-title{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding:10px;
+}
+.second-onboard-subtitle{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.check-box{
+    position:absolute;
+    top:10px;
+    right: 15px;
+    height:20px;
+    display:none;
+}
+.check-icon{
+    color:  #fff;
+}
+.avartar-container{
+    display:flex;
+    justify-content: center;
+}
+.image-container {
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 40rem;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.reset-button {
+    width: 1.5rem;
+    position: absolute;
+    left: 92.5%;
+    border-radius: 100%;
+}
+.img-text {
+    font-size: 80%;
+    margin-top: 1rem;
+}
+.img-holder {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.no-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.third-onboard-container{
+    width:90% !important;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.third-onboard-image{
+    width:100% !important;
+    height: 120px;
+}
+.third-onboard-radiogroup{
+    margin-top: 20px !important;
+    display: inline !important;
+}
+.third-onboard-finalsubmit-btn{
+    margin: 0 auto;
+    width: 400px;
+    height: 45px;
+    background: #EC6D37;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 45px;
+    margin-top: 30px;
+}
+.third-onboard-finalsubmit-btn:hover{
+    background-color: #ad471c;
+    cursor:pointer;
+}
+/* form style*/
+.MuiFormControl-marginNormal {
+    margin-bottom: 0 !important;
+}
+
+/*stpper style*/
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: #EC6D37  !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+    color: #EC6D37  !important;
+}
+
+/*avatar upload component*/
+body > div.fade.modal.show > div > div > div.modal-body > div > div.second-onboard-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div{
+    border: 1px dashed rgb(151, 151, 151) !important;
+}
+/*image list*/
+.MuiImageList-root {
+    margin-top: 40px !important;
+}
+/* 스크롤바 설정*/
+.MuiImageList-root::-webkit-scrollbar{
+    width: 10px !important;
+}
+
+/* 스크롤바 막대 설정*/
+.MuiImageList-root::-webkit-scrollbar-thumb{
+    height: 17% !important;
+    background-color: #EC6D37 !important;
+    border-radius: 10px !important;  
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.MuiImageList-root::-webkit-scrollbar-track{
+    background-color: rgb(151, 151, 151) !important;
+}
+.onboard-image-item{
+    border-radius:20px;
+    overflow: hidden;
+
+}
+.selected-item{
+    filter: brightness(50%);
+}
+.MuiImageListItem-item{
+    border-radius:20px;
+    overflow: hidden;
+}
+.MuiImageListItem-item:hover img{
+    filter: brightness(70%);
+    cursor: pointer;
+}
+.MuiImageListItemBar-root{
+    background: none !important;
+}
+
+.MuiImageListItemBar-title {
+    font-size: 13px !important;
+    line-height: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

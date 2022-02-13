@@ -1,0 +1,9 @@
+.share_Btn{
+    border:none;
+    background-color: #EC6D37;
+    color: #fff;
+}
+.share_Btn:hover{
+    background-color: #d36231;
+    color: #fff;
+}
